@@ -1,0 +1,466 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="assets/css/reset.css">
+    <link rel="stylesheet" href="assets/css/styles.css">
+    <link rel="stylesheet" href="assets/media/fonts/Golos/fonts.css">
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
+    <link rel="stylesheet" href="assets/media/fonts/fontAwesome/css/all.css">
+    <style>
+        html,
+        body,
+        .home__content {
+          height: 100%;
+        }
+    
+        .home__content {
+            background-color: #4F73CD;
+        }
+    
+        .swiper-container {
+            position: unset;
+          width: 100%;
+          height: 100%;
+          margin-left: auto;
+          margin-right: auto;
+        }
+
+        .swiper-pagination {
+            bottom: 0 !important;
+            display: none;
+        }
+    
+        .swiper-slide {
+          background: transparent;
+          /* width: 170px !important; */
+          height: 270px !important;
+          /* margin-right: 0 !important; */
+          margin-top: 0 !important;
+    
+          display: -webkit-box;
+          display: -ms-flexbox;
+          display: -webkit-flex;
+          display: flex;
+          -webkit-box-pack: center;
+          -ms-flex-pack: center;
+          -webkit-justify-content: center;
+          justify-content: center;
+          -webkit-box-align: center;
+          -ms-flex-align: center;
+          -webkit-align-items: center;
+          align-items: center;
+        }
+      </style>
+</head>
+<body>
+    <header>
+        <div class="wrapper">
+            <div class="header__content medium">
+                <h1 class="header__logo">
+                    Наши направления
+                </h1>
+                <nav class="header__nav">
+                    <ul>
+                        <li><a href="#" class="nav__items active">Все страны</a></li>
+                        <li><a href="#" class="nav__items">Италия</a></li>
+                        <li><a href="#" class="nav__items">Германия</a></li>
+                        <li><a href="#" class="nav__items">Греция</a></li>
+                        <li><a href="#" class="nav__items">Турция</a></li>
+                        <li><a href="#" class="nav__items">Испания</a></li>
+                        <li><a href="#" class="nav__items">Португалия</a></li>
+                    </ul>
+                </nav>
+                <div class="header__mobile">
+                    <div class="header__mobile_nav_toggler">
+                        <button class="header__mobile_button">
+                            Все направления <i class="far fa-angle-down nav__angleDown"></i>
+                        </button>
+                    </div>
+                    <nav class="header__mobile_nav">
+                        <ul>
+                            <li>
+                                <div class="mobile__nav_block mobileActive">
+                                    <i class="fal fa-check mobile__item_check mobile__item_checked"></i><a href="#" class="mobile__nav_items">Все страны</a>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="mobile__nav_block">
+                                    <i class="fal fa-check mobile__item_check"></i><a href="#" class="mobile__nav_items">Италия</a>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="mobile__nav_block">
+                                    <i class="fal fa-check mobile__item_check"></i><a href="#" class="mobile__nav_items">Германия</a>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="mobile__nav_block">
+                                    <i class="fal fa-check mobile__item_check"></i><a href="#" class="mobile__nav_items">Греция</a>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="mobile__nav_block">
+                                    <i class="fal fa-check mobile__item_check"></i><a href="#" class="mobile__nav_items">Турция</a>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="mobile__nav_block">
+                                    <i class="fal fa-check mobile__item_check"></i><a href="#" class="mobile__nav_items">Испания</a>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="mobile__nav_block">
+                                    <i class="fal fa-check mobile__item_check"></i><a href="#" class="mobile__nav_items">Португалия</a>
+                                </div>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <div class="home">
+        <div class="wrapper">
+            <div class="home__content">
+                <div class="swiper-container">
+                    <div class="swiper-wrapper">
+                      <div class="swiper-slide">
+                        <div class="swiper__slide__images_image swiper__slide__image">
+                            <img src="assets/media/images/milan.png" alt="Милан" class="swiper__slide__images_image_photo">
+                            <div class="swiper__slide__images_image_text">
+                                <p class="swiper__slide__images_image_text1 swiper__slide_image_text1">Милан</p>
+                                <p class="swiper__slide__images_image_text2 swiper__slide_image_text2">Италия</p>
+                            </div>
+                            <div class="swiper__slide__images_image_info swiper__slide__image_info">
+                                <span class="swiper__slide__images_image_info_close">&times;</span>
+                                <p>
+                                    Фрайбург-им-Брайсгау – оживленный университетский город в горах Шварцвальд на юго-западе Германии, 
+                                    известный своим умеренным климатом и восстановленным после войны средневековым Старым городом.
+                                </p>
+                                <a href="#">Подробнее</a>
+                            </div>
+                        </div>
+                      </div>
+        
+                      <div class="swiper-slide">
+                        <div class="swiper__slide__images_image swiper__slide__image">
+                            <img src="assets/media/images/afini.png" alt="Афины" class="swiper__slide__images_image_photo">
+                            <div class="swiper__slide__images_image_text">
+                                <p class="swiper__slide__images_image_text1 swiper__slide_image_text1">Афины</p>
+                                <p class="swiper__slide__images_image_text2 swiper__slide_image_text2">Греция</p>
+                            </div>
+                            <div class="swiper__slide__images_image_info swiper__slide__image_info">
+                                <span class="swiper__slide__images_image_info_close">&times;</span>
+                                <p>
+                                    Фрайбург-им-Брайсгау – оживленный университетский город в горах Шварцвальд на юго-западе Германии, 
+                                    известный своим умеренным климатом и восстановленным после войны средневековым Старым городом.
+                                </p>
+                                <a href="#">Подробнее</a>
+                            </div>
+                        </div>
+                      </div>
+        
+                      <div class="swiper-slide">
+                        <div class="swiper__slide__images_image swiper__slide__image">
+                            <img src="assets/media/images/fraiburg.png" alt="Фрайбург" class="swiper__slide__images_image_photo">
+                            <div class="swiper__slide__images_image_text">
+                                <p class="swiper__slide__images_image_text1 swiper__slide_image_text1">Фрайбург</p>
+                                <p class="swiper__slide__images_image_text2 swiper__slide_image_text2">Германия</p>
+                            </div>
+                            <div class="swiper__slide__images_image_info swiper__slide__image_info">
+                                <span class="swiper__slide__images_image_info_close">&times;</span>
+                                <p>
+                                    Фрайбург-им-Брайсгау – оживленный университетский город в горах Шварцвальд на юго-западе Германии, 
+                                    известный своим умеренным климатом и восстановленным после войны средневековым Старым городом.
+                                </p>
+                                <a href="#">Подробнее</a>
+                            </div>
+                        </div>
+                      </div>
+        
+                      <div class="swiper-slide">
+                        <div class="swiper__slide__images_image swiper__slide__image">
+                            <img src="assets/media/images/kash.png" alt="Каш" class="swiper__slide__images_image_photo">
+                            <div class="swiper__slide__images_image_text">
+                                <p class="swiper__slide__images_image_text1 swiper__slide_image_text1">Каш</p>
+                                <p class="swiper__slide__images_image_text2 swiper__slide_image_text2">Турция</p>
+                            </div>
+                            <div class="swiper__slide__images_image_info swiper__slide__image_info">
+                                <span class="swiper__slide__images_image_info_close">&times;</span>
+                                <p>
+                                    Фрайбург-им-Брайсгау – оживленный университетский город в горах Шварцвальд на юго-западе Германии, 
+                                    известный своим умеренным климатом и восстановленным после войны средневековым Старым городом.
+                                </p>
+                                <a href="#">Подробнее</a>
+                            </div>
+                        </div>
+                      </div>
+        
+                      <div class="swiper-slide">
+                          <div class="swiper__slide__images_image swiper__slide__image">
+                            <img src="assets/media/images/lissabon.png" alt="Лиссабон" class="swiper__slide__images_image_photo">
+                            <div class="swiper__slide__images_image_text">
+                                <p class="swiper__slide__images_image_text1 swiper__slide_image_text1">Лиссабон</p>
+                                <p class="swiper__slide__images_image_text2 swiper__slide_image_text2">Португалия</p>
+                            </div>
+                            <div class="swiper__slide__images_image_info swiper__slide__image_info">
+                                <span class="swiper__slide__images_image_info_close">&times;</span>
+                                <p>
+                                    Фрайбург-им-Брайсгау – оживленный университетский город в горах Шварцвальд на юго-западе Германии, 
+                                    известный своим умеренным климатом и восстановленным после войны средневековым Старым городом.
+                                </p>
+                                <a href="#">Подробнее</a>
+                            </div>
+                        </div>
+                      </div>
+        
+                      <div class="swiper-slide">
+                        <div class="swiper__slide__images_image swiper__slide__image">
+                            <img src="assets/media/images/madrid.png" alt="Мадрид" class="swiper__slide__images_image_photo">
+                            <div class="swiper__slide__images_image_text">
+                                <p class="swiper__slide__images_image_text1 swiper__slide_image_text1">Мадрид</p>
+                                <p class="swiper__slide__images_image_text2 swiper__slide_image_text2">Испания</p>
+                            </div>
+                            <div class="swiper__slide__images_image_info swiper__slide__image_info">
+                                <span class="swiper__slide__images_image_info_close">&times;</span>
+                                <p>
+                                    Фрайбург-им-Брайсгау – оживленный университетский город в горах Шварцвальд на юго-западе Германии, 
+                                    известный своим умеренным климатом и восстановленным после войны средневековым Старым городом.
+                                </p>
+                                <a href="#">Подробнее</a>
+                            </div>
+                        </div>
+                      </div>
+        
+                      <div class="swiper-slide">
+                        <div class="swiper__slide__images_image swiper__slide__image">
+                            <img src="assets/media/images/vichenica.png" alt="Виченица" class="swiper__slide__images_image_photo">
+                            <div class="swiper__slide__images_image_text">
+                                <p class="swiper__slide__images_image_text1 swiper__slide_image_text1">Виченица</p>
+                                <p class="swiper__slide__images_image_text2 swiper__slide_image_text2">Италия</p>
+                            </div>
+                            <div class="swiper__slide__images_image_info swiper__slide__image_info">
+                                <span class="swiper__slide__images_image_info_close">&times;</span>
+                                <p>
+                                    Фрайбург-им-Брайсгау – оживленный университетский город в горах Шварцвальд на юго-западе Германии, 
+                                    известный своим умеренным климатом и восстановленным после войны средневековым Старым городом.
+                                </p>
+                                <a href="#">Подробнее</a>
+                            </div>
+                        </div>
+                      </div>
+        
+                      <div class="swiper-slide">
+                        <div class="swiper__slide__images_image swiper__slide__image">
+                            <img src="assets/media/images/berlin.png" alt="Берлин" class="swiper__slide__images_image_photo">
+                            <div class="swiper__slide__images_image_text">
+                                <p class="swiper__slide__images_image_text1 swiper__slide_image_text1">Берлин</p>
+                                <p class="swiper__slide__images_image_text2 swiper__slide_image_text2">Германия</p>
+                            </div>
+                            <div class="swiper__slide__images_image_info swiper__slide__image_info">
+                                <span class="swiper__slide__images_image_info_close">&times;</span>
+                                <p>
+                                    Фрайбург-им-Брайсгау – оживленный университетский город в горах Шварцвальд на юго-западе Германии, 
+                                    известный своим умеренным климатом и восстановленным после войны средневековым Старым городом.
+                                </p>
+                                <a href="#">Подробнее</a>
+                            </div>
+                        </div>
+                      </div>
+        
+                      <div class="swiper-slide">
+                        <div class="swiper__slide__images_image swiper__slide__image">
+                            <img src="assets/media/images/barselona.png" alt="Барселона" class="swiper__slide__images_image_photo">
+                            <div class="swiper__slide__images_image_text">
+                                <p class="swiper__slide__images_image_text1 swiper__slide_image_text1">Барселона</p>
+                                <p class="swiper__slide__images_image_text2 swiper__slide_image_text2">Испания</p>
+                            </div>
+                            <div class="swiper__slide__images_image_info swiper__slide__image_info">
+                                <span class="swiper__slide__images_image_info_close">&times;</span>
+                                <p>
+                                    Фрайбург-им-Брайсгау – оживленный университетский город в горах Шварцвальд на юго-западе Германии, 
+                                    известный своим умеренным климатом и восстановленным после войны средневековым Старым городом.
+                                </p>
+                                <a href="#">Подробнее</a>
+                            </div>
+                        </div>
+                      </div>
+        
+                      <div class="swiper-slide">
+                        <div class="swiper__slide__images_image swiper__slide__image">
+                            <img src="assets/media/images/antalia.png" alt="Анталия" class="swiper__slide__images_image_photo">
+                            <div class="swiper__slide__images_image_text">
+                                <p class="swiper__slide__images_image_text1 swiper__slide_image_text1">Анталия</p>
+                                <p class="swiper__slide__images_image_text2 swiper__slide_image_text2">Турция</p>
+                            </div>
+                            <div class="swiper__slide__images_image_info swiper__slide__image_info">
+                                <span class="swiper__slide__images_image_info_close">&times;</span>
+                                <p>
+                                    Фрайбург-им-Брайсгау – оживленный университетский город в горах Шварцвальд на юго-западе Германии, 
+                                    известный своим умеренным климатом и восстановленным после войны средневековым Старым городом.
+                                </p>
+                                <a href="#">Подробнее</a>
+                            </div>
+                        </div>
+                      </div>
+        
+                      <div class="swiper-slide">
+                        <div class="swiper__slide__images_image swiper__slide__image">
+                            <img src="assets/media/images/portu.png" alt="Порту" class="swiper__slide__images_image_photo">
+                            <div class="swiper__slide__images_image_text">
+                                <p class="swiper__slide__images_image_text1 swiper__slide_image_text1">Порту</p>
+                                <p class="swiper__slide__images_image_text2 swiper__slide_image_text2">Португалия</p>
+                            </div>
+                            <div class="swiper__slide__images_image_info swiper__slide__image_info">
+                                <span class="swiper__slide__images_image_info_close">&times;</span>
+                                <p>
+                                    Фрайбург-им-Брайсгау – оживленный университетский город в горах Шварцвальд на юго-западе Германии, 
+                                    известный своим умеренным климатом и восстановленным после войны средневековым Старым городом.
+                                </p>
+                                <a href="#">Подробнее</a>
+                            </div>
+                        </div>
+                      </div>
+        
+                      <div class="swiper-slide">
+                        <div class="swiper__slide__images_image swiper__slide__image">
+                            <img src="assets/media/images/venecia.png" alt="Венеция" class="swiper__slide__images_image_photo">
+                            <div class="swiper__slide__images_image_text">
+                                <p class="swiper__slide__images_image_text1 swiper__slide_image_text1">Венеция</p>
+                                <p class="swiper__slide__images_image_text2 swiper__slide_image_text2">Италия</p>
+                            </div>
+                            <div class="swiper__slide__images_image_info swiper__slide__image_info">
+                                <span class="swiper__slide__images_image_info_close">&times;</span>
+                                <p>
+                                    Фрайбург-им-Брайсгау – оживленный университетский город в горах Шварцвальд на юго-западе Германии, 
+                                    известный своим умеренным климатом и восстановленным после войны средневековым Старым городом.
+                                </p>
+                                <a href="#">Подробнее</a>
+                            </div>
+                        </div>
+                      </div>
+        
+                      <div class="swiper-slide">
+                        <div class="swiper__slide__images_image swiper__slide__image">
+                            <img src="assets/media/images/genuya.png" alt="Генуя" class="swiper__slide__images_image_photo">
+                            <div class="swiper__slide__images_image_text">
+                                <p class="swiper__slide__images_image_text1 swiper__slide_image_text1">Генуя</p>
+                                <p class="swiper__slide__images_image_text2 swiper__slide_image_text2">Италия</p>
+                            </div>
+                            <div class="swiper__slide__images_image_info swiper__slide__image_info">
+                                <span class="swiper__slide__images_image_info_close">&times;</span>
+                                <p>
+                                    Фрайбург-им-Брайсгау – оживленный университетский город в горах Шварцвальд на юго-западе Германии, 
+                                    известный своим умеренным климатом и восстановленным после войны средневековым Старым городом.
+                                </p>
+                                <a href="#">Подробнее</a>
+                            </div>
+                        </div>
+                      </div>
+        
+                      <div class="swiper-slide">
+                        <div class="swiper__slide__images_image swiper__slide__image">
+                            <img src="assets/media/images/guarda.png" alt="Гуарда" class="swiper__slide__images_image_photo">
+                            <div class="swiper__slide__images_image_text">
+                                <p class="swiper__slide__images_image_text1 swiper__slide_image_text1">Гуарда</p>
+                                <p class="swiper__slide__images_image_text2 swiper__slide_image_text2">Португалия</p>
+                            </div>
+                            <div class="swiper__slide__images_image_info swiper__slide__image_info">
+                                <span class="swiper__slide__images_image_info_close">&times;</span>
+                                <p>
+                                    Фрайбург-им-Брайсгау – оживленный университетский город в горах Шварцвальд на юго-западе Германии, 
+                                    известный своим умеренным климатом и восстановленным после войны средневековым Старым городом.
+                                </p>
+                                <a href="#">Подробнее</a>
+                            </div>
+                        </div>
+                      </div>
+        
+                      <div class="swiper-slide">
+                        <div class="swiper__slide__images_image swiper__slide__image">
+                            <img src="assets/media/images/valencia.png" alt="Валенсия" class="swiper__slide__images_image_photo">
+                            <div class="swiper__slide__images_image_text">
+                                <p class="swiper__slide__images_image_text1 swiper__slide_image_text1">Валенсия</p>
+                                <p class="swiper__slide__images_image_text2 swiper__slide_image_text2">Исапния</p>
+                            </div>
+                            <div class="swiper__slide__images_image_info swiper__slide__image_info">
+                                <span class="swiper__slide__images_image_info_close">&times;</span>
+                                <p>
+                                    Фрайбург-им-Брайсгау – оживленный университетский город в горах Шварцвальд на юго-западе Германии, 
+                                    известный своим умеренным климатом и восстановленным после войны средневековым Старым городом.
+                                </p>
+                                <a href="#">Подробнее</a>
+                            </div>
+                        </div>
+                      </div>
+        
+                      <div class="swiper-slide">
+                        <div class="swiper__slide__images_image swiper__slide__image">
+                            <img src="assets/media/images/padua.png" alt="Падуя" class="swiper__slide__images_image_photo">
+                            <div class="swiper__slide__images_image_text">
+                                <p class="swiper__slide__images_image_text1 swiper__slide_image_text1">Падуя</p>
+                                <p class="swiper__slide__images_image_text2 swiper__slide_image_text2">Италия</p>
+                            </div>
+                            <div class="swiper__slide__images_image_info swiper__slide__image_info">
+                                <span class="swiper__slide__images_image_info_close">&times;</span>
+                                <p>
+                                    Фрайбург-им-Брайсгау – оживленный университетский город в горах Шварцвальд на юго-западе Германии, 
+                                    известный своим умеренным климатом и восстановленным после войны средневековым Старым городом.
+                                </p>
+                                <a href="#">Подробнее</a>
+                            </div>
+                        </div>
+                      </div>
+        
+                      <div class="swiper-slide">
+                        <div class="swiper__slide__images_image swiper__slide__image">
+                            <img src="assets/media/images/saloniks.png" alt="Салоники" class="swiper__slide__images_image_photo">
+                            <div class="swiper__slide__images_image_text">
+                                <p class="swiper__slide__images_image_text1 swiper__slide_image_text1">Салоники</p>
+                                <p class="swiper__slide__images_image_text2 swiper__slide_image_text2">Греция</p>
+                            </div>
+                            <div class="swiper__slide__images_image_info swiper__slide__image_info">
+                                <span class="swiper__slide__images_image_info_close">&times;</span>
+                                <p>
+                                    Фрайбург-им-Брайсгау – оживленный университетский город в горах Шварцвальд на юго-западе Германии, 
+                                    известный своим умеренным климатом и восстановленным после войны средневековым Старым городом.
+                                </p>
+                                <a href="#">Подробнее</a>
+                            </div>
+                        </div>
+                      </div>
+        
+                      <div class="swiper-slide">
+                        <div class="swiper__slide__images_image swiper__slide__image">
+                            <img src="assets/media/images/stambul.png" alt="Стамбул" class="swiper__slide__images_image_photo">
+                            <div class="swiper__slide__images_image_text">
+                                <p class="swiper__slide__images_image_text1 swiper__slide_image_text1">Стамбул</p>
+                                <p class="swiper__slide__images_image_text2 swiper__slide_image_text2">Турция</p>
+                            </div>
+                            <div class="swiper__slide__images_image_info swiper__slide__image_info">
+                                <span class="swiper__slide__images_image_info_close">&times;</span>
+                                <p>
+                                    Фрайбург-им-Брайсгау – оживленный университетский город в горах Шварцвальд на юго-западе Германии, 
+                                    известный своим умеренным климатом и восстановленным после войны средневековым Старым городом.
+                                </p>
+                                <a href="#">Подробнее</a>
+                            </div>
+                        </div>
+                      </div>
+                    </div>
+        
+                    <div class="swiper-button-next"></div>
+                    <div class="swiper-button-prev"></div>
+                    <div class="swiper-pagination"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script src="assets/js/main.js"></script>
+</body>
